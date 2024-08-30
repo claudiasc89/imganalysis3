@@ -5,18 +5,16 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+  - name: Image analysis
     url: docs/
     weight: 20
-  - name: Blog
+  - name: About me
     url: blog/
     weight: 30
-  - name: Showcase
-    url: showcase/
+  - name: Blog
+    url: blog/
     weight: 40
-  - name: Community
-    url: community/
-    weight: 50
+
 
 sidebar:
   - identifier: more
