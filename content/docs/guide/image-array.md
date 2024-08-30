@@ -8,3 +8,4 @@ What is an image? In image analysis, an image is a collection of data that repre
 
 For 8-bit images, the pixel values range from 0 to 255. In microscopy, we usually work with 16-bit images because they offer a higher bit depth. In other words, the pixel values range from 0 to 65535, allowing for finer gradations of intensity. 
 
+{{< figure src="media/pixels_fig.png" alt="Image of a pixel array" caption="Figure 1: A pixel array visualized as an image." >}}
