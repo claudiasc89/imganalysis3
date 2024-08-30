@@ -21,3 +21,12 @@ The output would be
 {{< figure src="media/ia_arrayshapeOUT1.png" alt="Image of a pixel array" caption="" >}}
 
 However, in microscopy images are often multi-dimensional to include additional information such as time, z-stacks or different fluorescent channels. These multi-dimensional images are represented as arrays of arrays. For instance, a 3D image might have the shape (z, height, width) and a 4D images might have the shape (time, z, height, width). 
+
+
+## Did you enjoy? Then share this post:
+
+<div class="social-share">
+  <a href="https://twitter.com/share?url={{ .Permalink }}&text={{ .Title }}" target="_blank">Share on Twitter</a> |
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" target="_blank">Share on LinkedIn</a> |
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">Share on Facebook</a>
+</div>
