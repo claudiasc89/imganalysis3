@@ -15,7 +15,14 @@ For 8-bit images, the pixel values range from 0 to 255. In microscopy, we usuall
 For simple 2-dimensional (2D) image, the array has two dimensions -height and width. We can inspect the dimensions of an image using code.
 
 {{% callout note %}}
-A Markdown callout is useful for displaying notices, hints, or definitions to your readers.
+# Example of code to import and check the shape of a 2D image
+#import required packages
+import numpy as np
+from skimage import io
+
+image = io.imread("image_path.tif")
+print(image)
+print (image.shape) #function to check the dimensions of the image
 {{% /callout %}}
 
 {{< figure src="media/image2Darrayshape_IN.svg" alt="Image of a pixel array" caption="Figure 1: Schema of pixel intensities in a digital image. Each square represent a pixel which its intensity value." >}}
