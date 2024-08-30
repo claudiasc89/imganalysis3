@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: The basics
 weight: 2
 sidebar:
   open: true
