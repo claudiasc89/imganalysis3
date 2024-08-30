@@ -4,27 +4,17 @@ date: 2024-02-17
 weight: 1
 ---
 
-## Quick Start from Template
+## Getting Started
 
-{{% steps %}}
+Welcome to the Getting Started section. Here you will find information on the most common tools, packages, and techniques used in image analysis. 
 
-### Initialize a new site
+### Common Tools and Packages
 
-[Click to copy the template on GitHub](https://github.com/new?template_name=theme-documentation&template_owner=HugoBlox)
+- **Tool 1**: Brief description of Tool 1.
+- **Tool 2**: Brief description of Tool 2.
+- **Tool 3**: Brief description of Tool 3.
 
-### Configure your new site
-
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Add your content
-
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Publish your site
-
-[Easily publish your site for free with GitHub Pages](https://docs.hugoblox.com/tutorial/blog/)
-
-{{% /steps %}}
+(You can replace this placeholder text with detailed descriptions and links to the tools and packages you want to feature.)
 
 ## Next
 
