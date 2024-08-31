@@ -22,5 +22,5 @@ Let's customize your new site:
 
 {{< cards >}}
   {{< card url="../guide" title="The basics" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
+  {{< card url="../processing" title="Image processing" icon="adjustments-vertical" >}}
 {{< /cards >}}
