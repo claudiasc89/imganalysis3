@@ -21,6 +21,6 @@ Welcome to the Getting Started section. Here you will find information on the mo
 Let's customize your new site:
 
 {{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
+  {{< card url="../guide" title="The basics" icon="document-duplicate" >}}
   {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
 {{< /cards >}}
