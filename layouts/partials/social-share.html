@@ -1,18 +1,14 @@
 <div class="social-share">
-    {{ if .Params.share }}
-      <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" title="Share on X">
-        <i class="icon-brands-x"></i> X
-      </a>
-      <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank" title="Share on Facebook">
-        <i class="icon-brands-facebook"></i> Facebook
-      </a>
-      <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" target="_blank" title="Share via Email">
-        <i class="icon-hero-at-symbol"></i> Email
-      </a>
-      <a href="https://www.linkedin.com/shareArticle?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="Share on LinkedIn">
-        <i class="icon-brands-linkedin"></i> LinkedIn
-      </a>
-      <a href="whatsapp://send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" title="Share on WhatsApp">
-        <i class="icon-brands-whatsapp"></i> WhatsApp
-      </a>
-    {{ end }}
+  <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" title="Share on X">
+    <i class="brands/x"></i> X
+  </a>
+  <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank" title="Share on Facebook">
+    <i class="brands/facebook"></i> Facebook
+  </a>
+  <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" target="_blank" title="Share via Email">
+    <i class="hero/at-symbol"></i> Email
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="Share on LinkedIn">
+    <i class="brands/linkedin"></i> LinkedIn
+  </a>
+</div>
