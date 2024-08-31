@@ -3,14 +3,14 @@ linkTitle: Documentation
 title: Introduction
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+👋 Welcome to the Image Analysis section. 
 
 <!--more-->
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+ This site will guide you through the foundational steps of image analysis and offer practical tips that I use daily for extracting valuable data from microscopy images. Whether you’re just starting out or looking to refine your skills, you’ll find actionable advice to help you make the most of your image data.
 
 ## Next
 
 {{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Start decoding your data!" >}}
 {{< /cards >}}
