@@ -37,7 +37,8 @@ sections:
           filename: microscopy-background.jpg
           filters:
             brightness: 1.2
-            opacity: 0.6
+            opacity: 0.3
+            blur: 2px 
  
   # - block: stats
   #   content:
