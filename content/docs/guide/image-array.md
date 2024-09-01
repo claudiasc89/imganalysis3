@@ -2,6 +2,8 @@
 title: The image, an array of pixels
 weight: 1
 share: true
+date:
+lastmod: 
 ---
 What is an image? In image analysis, an image is a collection of data that represents visual information. When imported into a coding environment, this visual information is converted into an array of pixels. Each pixel in this array has a specific intensity value that represents the brightness at that point in the image.
 
