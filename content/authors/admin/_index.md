@@ -40,10 +40,10 @@ profiles:
   #  url: https://www.instagram.com/
 
 education:
-  #- area: PhD Biomedicine
-  #  institution: Universitat Pompeu Fabra 
-  #  date_start: 2015-04-01
-  #  date_end: 2020-09-31
+  - area: PhD Biomedicine
+    institution: Universitat Pompeu Fabra 
+    date_start: 2015-04-01
+    date_end: 2020-09-31
   #  summary: |
   #    Thesis on stress responses and cell polarity. Supervised by [Prof Elena Hidalgo and José Ayté](https://www.upf.edu/web/osccg). Published 4 scientific articles and 1 review. Selected publication (https://pubmed.ncbi.nlm.nih.gov/34731607/). 
   #  button:
