@@ -18,7 +18,6 @@ Welcome to the Getting Started section. Here you will find information on the mo
 
 ## Next
 
-Let's customize your new site:
 
 {{< cards >}}
   {{< card url="../guide" title="The basics" icon="document-duplicate" >}}
