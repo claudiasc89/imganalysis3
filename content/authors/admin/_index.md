@@ -30,8 +30,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:claudia.salat.canela@gmail.com'
     label: E-mail Me
-  - icon: brands/orcid
-    url: https://orcid.org/0000-0003-3825-7672 
+  #- icon: brands/orcid
+  #  url: https://orcid.org/0000-0003-3825-7672 
   - icon: brands/github
     url: https://github.com/claudiasc89
   - icon: brands/linkedin
@@ -49,7 +49,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://www.tdx.cat/handle/10803/670276#page=1'
-  - area: MEng Artificial Intelligence
+  - area: 
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
