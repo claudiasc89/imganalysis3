@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 
+title: Clàudia Salat Canela
 
 # Name pronunciation (optional)
 name_pronunciation: 
