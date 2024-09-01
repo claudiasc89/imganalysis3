@@ -17,9 +17,10 @@ cascade:
     editable: true
     show_breadcrumb: true
     # Hide date from Next In Series
-    show_date: false
+    show_date: true #set to true
     # Show date modified at end of content
     show_date_updated: true
+    share: true
   # Blog post options
   - _target:
       path: /blog/**
