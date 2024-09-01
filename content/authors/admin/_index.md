@@ -22,7 +22,7 @@ role: Postdoctoral scientist and emerging image analyst
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Université de Lausanne
-    url: https://www.example.com/
+    url: https://wp.unil.ch/vjesticalab/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -30,8 +30,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:claudia.salat.canela@gmail.com'
     label: E-mail Me
-  #- icon: brands/x
-  #  url: https://twitter.com/GetResearchDev
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0003-3825-7672 
   - icon: brands/github
     url: https://github.com/claudiasc89
   - icon: brands/linkedin
@@ -40,15 +40,15 @@ profiles:
   #  url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Biomedicine
+    institution: Universitat Pompeu Fabra 
+    date_start: 2015-04-01
+    date_end: 2020-09-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on stress responses and cell polarity. Supervised by [Prof Elena Hidalgo and José Ayté](https://www.upf.edu/web/osccg). Published 4 scientific articles and 1 review. Selected publication (https://pubmed.ncbi.nlm.nih.gov/34731607/). 
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://www.tdx.cat/handle/10803/670276#page=1'
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
