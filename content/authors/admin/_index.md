@@ -30,8 +30,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:claudia.salat.canela@gmail.com'
     label: E-mail Me
-  #- icon: brands/orcid
-  #  url: https://orcid.org/0000-0003-3825-7672 
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0003-3825-7672 
   - icon: brands/github
     url: https://github.com/claudiasc89
   - icon: brands/linkedin
