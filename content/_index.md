@@ -36,7 +36,8 @@ sections:
           # Add your image background to `assets/media/`.
           filename: microscopy-background.jpg
           filters:
-            brightness: 0.8
+            brightness: 1.2
+            opacity: 0.6
  
   # - block: stats
   #   content:
