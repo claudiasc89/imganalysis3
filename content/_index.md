@@ -14,11 +14,11 @@ sections:
       text: Welcome to this site where I share my experiences and insights into the world of image analysis. This is a space for exploring techniques, tools, and tips that have helped me decode complex image data. Whether you're just starting or looking to refine your skills, I hope these resources will help you make the most out of your images. 🎉
       primary_action:
         text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        url: https://claudiasc89.github.io/imganalysis3/docs/getting-started/
         icon: rocket-launch
       secondary_action:
         text: Read the blog
-        url: /blog/
+        url: https://claudiasc89.github.io/imganalysis3/blog/
       #announcement:
         #text: "Announcing the release of version 2."
         #link:
@@ -36,7 +36,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: microscopy-background.jpg
           filters:
-            brightness: 0.5
+            brightness: 0.3
  
   # - block: stats
   #   content:
