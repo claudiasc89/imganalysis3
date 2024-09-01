@@ -12,12 +12,12 @@ appearance:
 marketing:
   seo:
     site_type: Project
-    local_business_type: ''
+    local_business_type: 'Personal project'
     org_name: ''
-    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
+    description: 'Site to share  Image analysis tools'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: G-JZ9X10R5ZE
     google_tag_manager: ''
     microsoft_clarity: ''
     baidu_tongji: ''
