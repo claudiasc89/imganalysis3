@@ -45,32 +45,20 @@ education:
     date_start: 2015-04-01
     date_end: 2020-09-30
     summary: |
-      Thesis on stress responses and cell polarity. Supervised by [Prof Elena Hidalgo and José Ayté](https://www.upf.edu/web/osccg). Published 4 scientific articles and 1 review. Selected publication (https://pubmed.ncbi.nlm.nih.gov/34731607/). 
+      Thesis on stress responses and cell polarity. Published 4 scientific articles and 1 review. 
     button:
       text: 'Read Thesis'
       url: 'https://www.tdx.cat/handle/10803/670276#page=1'
-  - area: 
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: Master in Biomedical Research
+    institution: Universitat Pomepeu Fabra 
+    date_start: 2011-09-01
+    date_end: 2012-06-01
+    #summary: |
+  - area: BSc Biotechnology
+    institution: Universitat Pompeu Fabra
+    date_start: 2007-09-01
+    date_end: 2011-06-01
+    #summary: |
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
