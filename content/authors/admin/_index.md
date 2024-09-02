@@ -107,11 +107,11 @@ skills:
       - name: Yoga
         description: ''
         percent: 80
-        icon: yoga
+        icon: Yoga
       - name: Reading
         description: ''
         percent: 80
-        icon: book
+        icon: book-open
 
 languages:
   - name: Catalan
