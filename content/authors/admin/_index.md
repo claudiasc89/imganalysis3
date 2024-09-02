@@ -107,7 +107,7 @@ skills:
       - name: Yoga
         description: ''
         percent: 80
-        icon: Yoga
+        icon: 🧘
       - name: Reading
         description: ''
         percent: 80
@@ -147,4 +147,4 @@ awards:
 
 ---
 
-I am currently a postdoctoral scientist with a strong foundation in molecular biology techniques and an emerging specialization in image analysis and adaptative microscopy. 
+I am currently a postdoctoral scientist with a strong foundation in molecular biology techniques and an emerging specialization in image analysis and adaptative microscopy. Passionate about advancing scientific discovery, I am always open to new collaborations. Want to collaborate? Reach out!
