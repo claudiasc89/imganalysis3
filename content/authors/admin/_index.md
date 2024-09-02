@@ -68,7 +68,7 @@ work:
     date_end: ''
     summary: |2-
       Skills:
-      - Experimental design, Fluorescence Microscopy, Python, R, Problem Solving, grant writing
+      - Experimental design, Fluorescence Microscopy, Adaptive Microscopy Acquisition Python, R, Problem Solving, grant writing
   - position: PhD student
     company_name: Universitat Pompeu Fabra
     company_url: ''
