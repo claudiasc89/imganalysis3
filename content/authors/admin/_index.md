@@ -104,14 +104,14 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Yoga
         description: ''
         percent: 80
-        icon: camera
+        icon: yoga
+      - name: Reading
+        description: ''
+        percent: 80
+        icon: book
 
 languages:
   - name: English
