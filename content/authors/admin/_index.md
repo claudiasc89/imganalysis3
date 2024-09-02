@@ -147,4 +147,4 @@ awards:
 
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently a postdoctoral scientist with a strong foundation in molecular biology techniques and an emerging specialization in image analysis and adaptative microscopy. 
