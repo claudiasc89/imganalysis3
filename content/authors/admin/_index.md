@@ -134,7 +134,7 @@ awards:
     date: '2023-02-12'
     awarder: EMBL
     icon: ""
-    summary: |
+    summary: 
   
   - type: "Grant"
     title: EMBO Postdoctoral Fellowship
