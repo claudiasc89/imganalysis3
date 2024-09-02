@@ -135,6 +135,15 @@ awards:
     awarder: EMBL
     icon: ""
     summary: |
+  
+  - type: "Grant"
+    title: EMBO Postdoctoral Fellowship
+    url: https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/ 
+    date: '2022-08-01'
+    awarder: EMBO
+    icon: ""
+    summary: 
+
 
 ---
 
