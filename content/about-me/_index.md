@@ -37,7 +37,7 @@ sections:
     content:
       title: Skills & Hobbies
       username: admin
-  - block: achievements
+  - block: awards
     content:
       title: Achievements
       username: admin
