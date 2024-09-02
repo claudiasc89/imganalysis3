@@ -127,7 +127,7 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-achievements:
+awards:
   - type: "Course"
     title: Introduction to RNA-seq and functional interpretation
     url: https://www.ebi.ac.uk/training/events/introduction-rna-seq-and-functional-interpretation-2/?utm_source=annualposter&utm_medium=poster&utm_id=RNA24
