@@ -75,7 +75,7 @@ work:
     company_logo: ''
     date_start: 2015-01-05
     date_end: 2020-09-30
-    summary: |
+    summary: |2-
       Skills:
       -Experimental design, Molecular biology, Scientific writing, Team work
 
