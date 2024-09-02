@@ -60,28 +60,24 @@ education:
     date_end: 2011-06-01
     #summary: |
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Postdoctoral scientist
+    company_name: Université de Lausanne
+    company_url: 'https://wp.unil.ch/vjesticalab/'
+    company_logo: 'vlogo.png'
+    date_start: 2021-04-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Skills:
+      - Experimental design, Fluorescence Microscopy, Python, R, Problem Solving, grant writing
+  - position: PhD student
+    company_name: Universitat Pompeu Fabra
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2015-01-05
+    date_end: 2020-09-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Skills:
+      -Experimental design, Molecular biology, Scientific writing, Team work
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -94,12 +90,12 @@ skills:
         icon: devicon/python
       - name: RStudio
         description: ''
-        percent: 100
+        percent: 60
         icon: devicon/rstudio
-      - name: PyTorch
+      - name: Fluorscence microscopy
         description: ''
-        percent: 40
-        icon: devicon/pytorch
+        percent: 70
+        icon: devicon/magnifying-glass
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
