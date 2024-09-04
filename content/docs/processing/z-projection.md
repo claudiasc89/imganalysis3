@@ -9,8 +9,10 @@ Manually selecting the best Z-plane can be tedious, especially when it varies ac
 
 ## How do we find the best focused plane?
 
-To automatically detect the best-focused plane, we rely on the mathematical parameters of our image, which differ depending on whether we're working with fluorescent images or brightfield.
+To automatically detect the best-focused plane, we rely on the mathematical parameters of our image. The strategy choosen will differ depending on whether we're working with fluorescent images or brightfield.
 
-# Fluorescent images
+### Fluorescent images
 
-For fluorescent images, the standard deviation (SD) of pixel intensities is a reliable indicator. In a perfectly focused image, the boundaries of structures are sharp, resulting in a significant difference in intensity between pixels in the background and those within the cell, which leads to a higher SD for the entire image. Conversely, if the image contains blur, pixels near the edges of structures will have more averaged intensities, resulting in a lower SD for the image.
+For fluorescent images, the standard deviation (SD) of pixel intensities is a reliable indicator. SD measures how spread out the values are in a dataset—in this case, the pixel intensities. In a perfectly focused image, the boundaries of structures are sharp, resulting in a significant difference in intensity between pixels in the background and those within the cell, which leads to a higher SD for the entire image. Conversely, if the image contains blur, pixels near the edges of structures will have more averaged intensities, resulting in a lower SD for the image.
+
+{{< figure src="media/SD_fluor.png" alt="Image showing change of SD in z-stacks" caption="Figure 1: Different z-stacks of a GFP fluorescent cell, demonstrating how the standard deviation (SD) varies with focus. Each stack shows a detailed view of the cell's border, illustrating how pixel intensities differ more sharply when the image is in better focus." >}}
