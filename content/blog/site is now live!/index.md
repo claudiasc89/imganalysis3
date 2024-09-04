@@ -1,7 +1,7 @@
 ---
 title: Launch Announcement ➡️ Explore My Image Analysis Projects
 summary: I'm excited to launch my new image analysis portfolio site, where I'll be sharing my projects, scripts, and insights into the world of image analysis.
-date: 2023-01-01
+date: 2024-09-04
 authors:
   - admin
 
