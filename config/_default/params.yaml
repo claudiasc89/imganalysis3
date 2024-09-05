@@ -38,7 +38,7 @@ header:
     logo: true
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "IAlogo.webp"
+      filename: IAlogo.webp
     button:
       enable: false
       text: "Get Started"
