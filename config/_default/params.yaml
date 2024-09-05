@@ -35,10 +35,10 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
-    logo: true
+    logo: 
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: IAlogo.webp
+      filename: ""
     button:
       enable: false
       text: "Get Started"
