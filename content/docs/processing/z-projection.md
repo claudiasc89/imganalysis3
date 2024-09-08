@@ -17,49 +17,20 @@ For fluorescent images, the standard deviation (SD) of pixel intensities is a re
 
 {{< figure src="media/SD_fluor.png" alt="Image showing change of SD in z-stacks" caption="Figure 1: Different z-stacks of a GFP fluorescent cell, demonstrating how the standard deviation (SD) varies with focus. Each stack shows a detailed view of the cell's border, illustrating how pixel intensities differ more sharply when the image is in better focus." >}}
 
-#### Code for fluorescent images
-In this section, we highlight the key components of the script used for processing fluorescent images. This script performs projection operations on 3D or 4D image stacks, allowing users to visualize and analyze specific aspects of their data. For the full executable script, please visit my [GitHub repository](https://github.com/claudiasc89/imganalysis3_scripts).
+#### Key code components for focus detection
+In this section, we focus on the critical parts of the code used to identify the best-focused plane within a 3D image stack. The following explanation breaks down the approach used to achieve this:
 
-##### Global Variables
-
-The script utilizes global variables to manage various aspects of image processing. These include:
-
-- **`proj_type`**: Specifies the type of projection (e.g., 'best', 'mean', 'max').
-- **`maxsd`**: Index of the z-slice with the highest standard deviation.
-- **`filename`**: Name of the input image file.
-- **`stack_step`**: Number of z-slices to include in the projection.
-- **`dimensions`, `dimensions_map`, `dimensions_indices`**: Metadata about image dimensions and their indices.
-
-##### Projection Functions
-
-The script includes functions to perform different types of projections on 3D or 4D image stacks:
-
-- **`projection_3D(img)`**: 
-  This function applies a projection to a 3D image stack. It supports:
-  - **Best Projection**: Selects the z-slice with the highest standard deviation.
-  - **Mean Projection**: Computes the mean of a specified number of z-slices around the most focused slice.
-  - **Max Projection**: Computes the maximum value across the specified z-slices.
-
-  **Key Steps**:
-  - Determine the range of z-slices to be included based on the projection type.
-  - Calculate the appropriate projection (mean or max).
-  - Save the projected image and log the details.
+Given a 3D image with dimensions specified as ('z', 'x', 'y'):
+```python
+image.shape # Example output: (5, 2048, 2048)
+```
 
 
-#### Usage
 
-1. **Prepare Image Data**:
-   Ensure your input image data is in the correct format and dimensions required by the script.
+In this section, we highlight the key parts of the code for processing fluorescent images. This script performs projection operations on 3D or 4D image stacks. 
+For the full executable script, please visit my [GitHub repository](https://github.com/claudiasc89/imganalysis3_scripts/blob/main/csc_ip001.py).
 
-2. **Set Parameters**:
-   Adjust the global variables and function parameters to suit your specific dataset and projection needs.
 
-3. **Run the Script**:
-   Execute the script to perform the projection and save the results. The script will generate output files and log files containing the details of the projection.
-
-By understanding these components, you can effectively use the script to analyze and visualize fluorescent images, tailoring the projections to your research needs.
-
-For a complete and executable version of this script, please refer to my [GitHub repository](https://github.com/claudiasc89/imganalysis3_scripts).
 
 
 
