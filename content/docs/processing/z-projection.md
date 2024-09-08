@@ -26,13 +26,20 @@ image.shape # Example output: (5, 2048, 2048)
 ```
 Here, image.shape indicates that image is a multi-dimensional array with 5 stacks, each with dimensions 2048x2048 pixels.
 
-1. Calculating Standard Deviation
+1. **Calculating Standard Deviation**
 To determine the focus quality of each z-stack, we first compute the standard deviation of pixel values across the x and y dimensions for each z-slice:
 ```python
 sd = image.std(axis=(1, 2))  # 'z' is located at index 0, so x and y are flattened
 ```
-    -Explanation: By specifying axis=(1, 2), we compute the standard deviation for each z-slice by flattening the x and y dimensions. This results in an array of standard deviation values, where each value corresponds to a z-stack. The standard deviation measures the contrast or sharpness of the z-stack, with higher values indicating better focus.
-    The output will be an array containing as many sd as z-stacks contains the image.
+-Explanation: By specifying axis=(1, 2), we compute the standard deviation for each z-slice by flattening the x and y dimensions. This results in an array of standard deviation values, where each value corresponds to a z-stack. The standard deviation measures the contrast or sharpness of the z-stack, with higher values indicating better focus.
+The output will be an array containing as many sd as z-stacks contains the image.
+
+2. **Finding the best-focused slice**
+Next, we determine which z-stack has the maximum standard deviation:
+```python
+maxsd = sd.argmax()
+```
+-sd.argmax() returns the index of the z-stack with the highest standard deviation. This index represents the slice with the best focus, as it shows the highest contrast compared to other z-stacks.
 
 
 
