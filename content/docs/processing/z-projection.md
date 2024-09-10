@@ -69,5 +69,19 @@ Here’s a breakdown of how the script performs these projections:
 Congratulations if you are still here! Did you find this explanation useful? Do you follow a different strategy for image processing? Feel free to reach out with any questions or to share your own methods!
 
 
-
+<script src="https://giscus.app/client.js"
+        data-repo="claudiasc89/imganalysis3"
+        data-repo-id="R_kgDOMqW3fg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMqW3fs4CiXHG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
 
