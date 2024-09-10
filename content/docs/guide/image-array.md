@@ -25,3 +25,18 @@ The output would be
 
 However, in microscopy images are often multi-dimensional to include additional information such as time, z-stacks or different fluorescent channels. These multi-dimensional images are represented as arrays of arrays. For instance, a 3D image might have the shape (z, height, width) and a 4D images might have the shape (time, z, height, width). 
 
+<script src="https://giscus.app/client.js"
+        data-repo="claudiasc89/imganalysis3"
+        data-repo-id="R_kgDOMqW3fg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMqW3fs4CiXHG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
