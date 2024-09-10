@@ -16,3 +16,19 @@ My goal with this site is to not only highlight the projects I’ve completed bu
 Over time, I’ll be progressively sharing more of the scripts and tools I’ve developed, walking you through the process behind each analysis. Stay tuned for regular updates, detailed breakdowns, and new projects as they come to life.
 
 Thank you for joining me on this journey. Your feedback, questions, and suggestions are always welcome. Let's dive into the world of image analysis together!
+
+<script src="https://giscus.app/client.js"
+        data-repo="claudiasc89/imganalysis3"
+        data-repo-id="R_kgDOMqW3fg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMqW3fs4CiXHG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

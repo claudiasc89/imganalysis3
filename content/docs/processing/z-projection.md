@@ -42,9 +42,10 @@ maxsd = sd.argmax()
 ```
 -sd.argmax() returns the index of the z-stack with the highest standard deviation. This index represents the slice with the best focus, as it shows the highest contrast compared to other z-stacks.
 
-### Key code for projections
+#### Key code for projections
 Once we have identified the best-focused slice, we can proceed to create projections from the image stack. The script offers three projection types: selecting the best-focused slice, and computing average or maximum projections.
-First, we determine the range of z-slices to include in the projection based on the user-defined stack_step parameter. This range accounts for slices above and below the best-focused slice. The script is designed to handle cases where the best focus might not be centered within the stack and adjusts the range to avoid exceeding the image boundaries.For a complete view of the script, refer to the [full code on GitHub](https://github.com/claudiasc89/imganalysis3_scripts/blob/main/csc_ip001.py).
+
+First, we determine the range of z-slices to include in the projection based on the user-defined stack_step parameter. This range accounts for slices above and below the best-focused slice. The script is designed to handle cases where the best focus might not be centered within the stack and adjusts the range to avoid exceeding the image boundaries. For a complete view of the script, refer to the [full code on GitHub](https://github.com/claudiasc89/imganalysis3_scripts/blob/main/csc_ip001.py).
 Here’s a breakdown of how the script performs these projections:
 
 1.**Selecting the best focused slice**
