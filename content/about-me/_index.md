@@ -39,7 +39,7 @@ sections:
       username: admin
   - block: awards
     content:
-      title: Achievements & Courses
+      title: Achievements
       username: admin
   - block: languages
     content:
