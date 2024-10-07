@@ -148,7 +148,7 @@ awards:
   - type: "Course"
     title: Introduction to machine learning with Python
     url: https://www.sib.swiss/training/upcoming-training-courses 
-    date: '2024-10-4'
+    date: '2024-10-04'
     awarder: Swiss Institute of Bioinformatics
     icon: ""
     summary: 
