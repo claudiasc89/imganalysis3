@@ -128,19 +128,19 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - type: "Course"
-    title: Introduction to RNA-seq and functional interpretation
-    url: https://www.ebi.ac.uk/training/events/introduction-rna-seq-and-functional-interpretation-2/?utm_source=annualposter&utm_medium=poster&utm_id=RNA24
-    date: '2023-02-12'
-    awarder: EMBL
-    icon: ""
-    summary: 
-  
   - type: "Grant"
     title: EMBO Postdoctoral Fellowship
     url: https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/ 
     date: '2022-08-01'
     awarder: EMBO
+    icon: ""
+    summary: 
+
+   - type: "Course"
+    title: Introduction to RNA-seq and functional interpretation
+    url: https://www.ebi.ac.uk/training/events/introduction-rna-seq-and-functional-interpretation-2/?utm_source=annualposter&utm_medium=poster&utm_id=RNA24
+    date: '2023-02-12'
+    awarder: EMBL
     icon: ""
     summary: 
 
