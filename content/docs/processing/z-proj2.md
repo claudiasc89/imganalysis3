@@ -1,5 +1,5 @@
 ---
-title: Z-projections, finding the best focused plane
+title: Z-projections, finding the best focused plane: method2
 weight: 4
 draft: false
 ---
