@@ -41,7 +41,8 @@ plt.imshow(image[40,1,:,:])
 
 
 
-    
+{{< figure src="media/SD_fluor.png" alt="Image showing change of SD in z-stacks" caption="Figure 1: Different z-stacks of a GFP fluorescent cell, demonstrating how the standard deviation (SD) varies with focus. Each stack shows a detailed view of the cell's border, illustrating how pixel intensities differ more sharply when the image is in better focus." >}}
+
 ![png](output_4_1.png)
     
 
