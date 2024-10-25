@@ -1,5 +1,6 @@
 +++
 title = "Z-projections: the basics"
+weight = 1
 date = "2018-06-01"
 author = "Clàudia Salat"
 categories = "image processing"
