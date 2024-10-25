@@ -12,7 +12,7 @@ tags = ["z-stacks", "projection"]
 When it comes to capturing intricate intracellular structures or achieving the sharpest focus in microscopy images, acquiring Z-stacks is crucial. Z-stacks allow us to collect a series of images at different focal planes, providing a comprehensive view of the specimen. When processing these images, usually we would like to create Z-projection to reconstruct our structure of interest.
 
 Let's learn how to do it using Python🐍!
-You can download the Jupyter notebook linked to this entry [here](/notebooks/z_proj_tut_simple.ipynb). 
+You can download the Jupyter notebook linked to this entry [here](https://github.com/claudiasc89/imganalysis3_scripts/blob/main/notebooks/z_proj_tut_simple.ipynb). 
 
 ## Import packages 
 First of all let's import the required packages.
