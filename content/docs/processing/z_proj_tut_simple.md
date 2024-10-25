@@ -12,6 +12,8 @@ tags = ["z-stacks", "projection"]
 When it comes to capturing intricate intracellular structures or achieving the sharpest focus in microscopy images, acquiring Z-stacks is crucial. Z-stacks allow us to collect a series of images at different focal planes, providing a comprehensive view of the specimen. When processing these images, usually we would like to create Z-projection to reconstruct our structure of interest.
 
 Let's learn how to do it using Python🐍!
+You can download the Jupyter notebook linked to this entry [here](/notebooks/z_proj_tut_simple.ipynb). 
+
 ## Import packages 
 First of all let's import the required packages.
 
@@ -68,8 +70,6 @@ plt.imshow(image_3d[30,:,:]) # showing middle z-slice
 {{< figure src="media/z_proj_tut_simple/output_8_1.png" alt="" caption="" >}}
 
     
-![png](output_8_1.png)
-    
 
 
 Amazing! We have captured a mitotic event 🔬
@@ -120,9 +120,8 @@ plt.tight_layout()  # Adjust layout to prevent overlap
 plt.show()
 ```
 
-
+{{< figure src="media/z_proj_tut_simple/output_12_0.png" alt="" caption="" >}}
     
-![png](output_12_0.png)
     
 
 
@@ -162,9 +161,8 @@ plt.tight_layout()  # Adjust layout to prevent overlap
 plt.show()
 ```
 
+{{< figure src="media/z_proj_tut_simple/output_14_0.png" alt="" caption="" >}}
 
-    
-![png](output_14_0.png)
     
 
 
@@ -191,9 +189,8 @@ plt.imshow(min_img_sel, cmap='gray') # to visualize the output image
 
 
 
-
+{{< figure src="media/z_proj_tut_simple/output_16_1.png" alt="" caption="" >}}
     
-![png](output_16_1.png)
     
 
 
