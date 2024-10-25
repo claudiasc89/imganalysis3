@@ -1,6 +1,5 @@
 +++
 title = "Z-projections: the basics"
-weight: 1
 date = "2018-06-01"
 author = "Clàudia Salat"
 categories = "image processing"
@@ -66,7 +65,7 @@ plt.imshow(image_3d[30,:,:]) # showing middle z-slice
     <matplotlib.image.AxesImage at 0x11e4235e0>
 
 
-{{< figure src="media/z_proj_tut_simple/output_8_1.png" alt="" caption="">}}
+{{< figure src="media/z_proj_tut_simple/output_8_1.png" alt="" caption="" >}}
 
     
 ![png](output_8_1.png)
