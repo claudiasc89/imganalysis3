@@ -1,6 +1,6 @@
 ---
 title: Z-projections, finding the best focused plane
-weight: 1
+weight: 2
 draft: false
 ---
 When it comes to capturing intricate intracellular structures or achieving the sharpest focus in microscopy images, acquiring Z-stacks is crucial. Z-stacks allow us to collect a series of images at different focal planes, providing a comprehensive view of the specimen. When processing these images, we have several options: we can select the best-focused slice or create a Z-projection to reconstruct our structure of interest.
