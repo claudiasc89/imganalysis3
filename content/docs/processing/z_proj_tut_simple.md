@@ -243,3 +243,20 @@ def projection(image, projection_type='max', axis = 0):
 
     
 ```
+If you've made it this far, leave a reaction! 🎉
+
+<script src="https://giscus.app/client.js"
+        data-repo="claudiasc89/imganalysis3"
+        data-repo-id="R_kgDOMqW3fg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMqW3fs4CiXHG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
