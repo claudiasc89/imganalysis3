@@ -1,7 +1,7 @@
 +++
 title = "Z-projections: the basics"
 weight = 1
-date = "2018-06-01"
+date = "2024-10-25"
 author = "Clàudia Salat"
 categories = "image processing"
 tags = ["z-stacks", "projection"]
