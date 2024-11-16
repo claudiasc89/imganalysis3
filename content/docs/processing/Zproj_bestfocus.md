@@ -1,4 +1,11 @@
-# Z-projections: finding the best focus plane
++++
+title = "Z-projections: finding the best focused plane"
+weight = 2
+date = "2024-11-16"
+author = "Clàudia Salat"
+categories = "image processing"
+tags = ["z-stacks", "projection", 'focus detection']
++++
 
 In the previous tutorial, we learned the basics of projections in the Z-plane. We highlighted the importance of finding the central, focused slice to select a projection range that falls within the focal plane of our sample. Doing this manually can be tedious, but what if I told you we can automate that step? Let's learn how to set up a script to automatically detect the best-focused slice.
 
@@ -60,12 +67,8 @@ plt.title("Standard Deviation Across Z-axis Slices")
 plt.show()
 ```
 
-
-    
-![png](output_7_0.png)
-    
-
-
+{{< figure src="media/Zproj_bestfocus/output_7_0.png" alt="" caption="" >}}
+        
 Looking at the graph, we can see that the slices with the highest values are approximately between 27 and 38.
 We will consider the best focused slice as the one with the highest SD value.
 
@@ -97,11 +100,8 @@ plt.imshow(image_nuclei[33,:,:])
 
 
 
-
+{{< figure src="media/Zproj_bestfocus/output_11_1.png" alt="" caption="" >}}
     
-![png](output_11_1.png)
-    
-
 
 It seems pretty decent!
 
@@ -153,11 +153,7 @@ axes[3].set_title("Laplacian for z=34")
 plt.show()
 ```
 
-
-    
-![png](output_15_0.png)
-    
-
+{{< figure src="media/Zproj_bestfocus/output_15_0.png" alt="" caption="" >}}
 
 The differences are clear: the transformation effectively detects borders when the image is well-focused, resulting in a higher pixel variance.
 
@@ -204,12 +200,8 @@ ax2.plot (z_values, lp_values, marker="x", color=color)
 plt.show()
 ```
 
-
+{{< figure src="media/Zproj_bestfocus/output_19_0.png" alt="" caption="" >}}
     
-![png](output_19_0.png)
-    
-
-
 As you can see, Laplacian variance is a more sensitive method for detecting focus.
 
 ### Let's wrap up! 
@@ -302,8 +294,23 @@ plt.imshow(projection)
 
 
 
+{{< figure src="media/Zproj_bestfocus/output_24_1.png" alt="" caption="" >}}
+        
+If you've made it this far, leave a reaction! 🎉
 
-    
-![png](output_24_1.png)
-    
+<script src="https://giscus.app/client.js"
+        data-repo="claudiasc89/imganalysis3"
+        data-repo-id="R_kgDOMqW3fg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMqW3fs4CiXHG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
 
