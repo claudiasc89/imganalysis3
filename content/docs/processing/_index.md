@@ -8,5 +8,5 @@ Raw images from microscopy experiments often require processing before they can 
 
 {{< cards >}}
   {{< card url="z_proj_tut_simple" title="Z-projections: the basics" >}}
-  {{< card url="Zproj_bestfocused" title="Z-projections: finding the best focused plane" icon="document-duplicate" >}}
+  {{< card url="Zproj_bestfocus" title="Z-projections: finding the best focused plane" icon="document-duplicate" >}}
 {{< /cards >}}
