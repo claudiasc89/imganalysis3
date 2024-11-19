@@ -1,6 +1,9 @@
+# System files
+.DS_Store
+
 # IDEs
 .idea/
-.DS_Store
+
 # Hugo
 resources/
 public/
